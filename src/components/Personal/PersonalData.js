@@ -142,7 +142,7 @@ class PersonalData extends Component {
             regexp: [
               {
                 minmax: [1, 500],
-                regexp: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,5})+$/,
+                regexp: /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,5})+$/,
                 message:
                   'оставьте поле пустым или введите эл.почту example@example.ru!',
               },
